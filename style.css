@@ -1,0 +1,49 @@
+/* Note: This example only works with Windows Insider Preview Builds 16237+ or the Fall Creators Update. */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    transition: background-color 0.1s;
+    color: white;
+}
+
+a:hover {
+    background-color: #3e3e40;
+}
+
+body {
+    background: #eee;
+}
+
+nav {
+    height: 50px;
+    background-color: #000;
+}
+
+.container {
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 15px 0px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav li {
+    padding-right: 1rem;
+}
